@@ -1,0 +1,53 @@
+body, html {
+    height: 100vh;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(to bottom right, lightblue, yellow);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button {
+    color: white;
+    background-color: green;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+.anime-image {
+    border: 5px solid green;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* Ensures the image covers the circle */
+    display: block;
+    margin: 20px auto;
+}
+
+.anime-name {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
